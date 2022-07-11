@@ -15,7 +15,7 @@ export const CharacterCard = (props) => {
                     <div className='img-container-card-lateral'>
                         <div className='triangle'></div>
                     </div>
-                        <Link style={{color: 'white' ,fontSize:"15px" }}  to={`/Character-Screen/${props.char_id}`} className='content-button-card' >ver</Link>
+                        <Link style={{color: 'white',fontSize:"15px" }}  to={`/Character-Screen/${props.char_id}`} className='content-button-card' >ver</Link>
 
                 </div>
                 <div className='conatiner-card'>
