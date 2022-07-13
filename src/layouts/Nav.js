@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
+
 export const Nav = () => {
   return (
     <>
@@ -41,6 +42,19 @@ export const Nav = () => {
                         </li>
                     </ul>
                 </div>
+            <div className="navbar-collapse d-flex justify-content-end">
+                <ul className="navbar-nav ml-auto">
+                <li className="nav-item">
+                    <NavLink 
+                        className={({isActive})=>'nav-item nav-link '+(isActive ? 'active' :'') } 
+                        to="/login"
+                    >
+                        logout
+                    </NavLink>
+                    </li>
+                    
+                </ul>
+            </div>
             </div>
         </nav> 
     </>

@@ -5,7 +5,7 @@ import './js.js'
 export const CharacterCard = (props) => {
   return (
     <>
-        <div className=''>
+        <div className='animate__animated animate__bounce'>
             <div className='character-card' >
                 <div className='img-container-card'>
                     <div className='img-container'>
